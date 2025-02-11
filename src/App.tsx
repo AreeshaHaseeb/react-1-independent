@@ -10,7 +10,7 @@ function App() {
     <>
       <Header></Header>
       <Routes>
-        <Route exact path="/" element={<Gallery />} />
+        <Route path="/" element={<Gallery />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/counter" element={<Counter />} />
       </Routes>
